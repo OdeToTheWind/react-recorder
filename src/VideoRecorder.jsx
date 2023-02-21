@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 
-//const mimeType = "video/webm";
+const mimeType = "video/webm";
 const VideoRecorder = () => {
     const [permission, setPermission] = useState(false);
     const mediaRecorder = useRef(null);

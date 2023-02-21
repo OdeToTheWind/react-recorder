@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 
-//const mimeType = "audio/webm";
+const mimeType = "audio/webm";
 const AudioRecorder = () => {
     const [permission, setPermission] = useState(false);
     const mediaRecorder = useRef(null);
